@@ -1,0 +1,32 @@
+{
+  "name": "pkg6/doc-bundle",
+  "description": "A php annotation and parsing library\n\n",
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "documentation",
+    "doc",
+    "rest"
+  ],
+  "authors": [
+    {
+      "name": "zhiqiang",
+      "email": "zhiqiang2033@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pkg6\\DocBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pkg6\\DocBundle\\Tests\\": "tests/"
+    }
+  }
+}
